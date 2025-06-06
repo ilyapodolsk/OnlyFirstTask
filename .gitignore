@@ -8,6 +8,7 @@
 /upload/
 /.access.php
 /.bottom.menu.php
+/ .gitignore
 /.htaccess
 /.leftfirst.menu.php
 /.section.php
