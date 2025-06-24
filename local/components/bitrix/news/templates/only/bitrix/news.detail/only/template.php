@@ -12,6 +12,7 @@ $this->addExternalCss($this->GetFolder().'/css/common.css');
             <div class="article-card__image sticky">
                 <img src="<?=$arResult["DETAIL_PICTURE"]["SRC"]?>" alt="<?=$arResult["NAME"]?>" data-object-fit="cover"/>
             </div>
+        <?endif;?>
         <div class="article-card__text">
             <div class="block-content" data-anim="anim-3">
                 <?=$arResult["DETAIL_TEXT"]?>
