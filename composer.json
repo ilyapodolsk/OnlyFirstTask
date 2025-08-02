@@ -1,0 +1,12 @@
+{
+    "require": {
+        "arhitector/yandex": "dev-master",
+        "laminas/laminas-diactoros": "^2.26",
+        "php-http/message-factory": "^1.1"
+    },
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    }
+}
